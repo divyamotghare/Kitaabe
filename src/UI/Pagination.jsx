@@ -1,14 +1,7 @@
-import { useEffect } from "react";
-
 function Pagination({ pagination, page, setCurrentPage }) {
   const { totalPages } = pagination;
 
-  // useEffect(() => {
-  //   setCurrentPage(currentPage);
-  // }, [currentPage]);
-
   const pageArr = new Array(totalPages).fill(1);
-
 
   return (
     <div class="flex items-center gap-4">

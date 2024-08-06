@@ -4,7 +4,7 @@ import AddBooks from "../pages/AddBooks";
 
 function Header() {
   return (
-    <div className="flex border-b-2 items-center justify-between py-4 bg-primary w-full">
+    <div className="flex border-b-2 border-secondary items-center justify-between py-4 bg-primary w-full">
       <Logo className="w-1/5" />
       <Search className="w-3/5" />
       <AddBooks className=" w-1/5 flex justify-end" />
