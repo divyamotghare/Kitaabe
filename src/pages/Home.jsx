@@ -17,10 +17,7 @@ function Home() {
   const books = data?.data;
   const pagination = data?.pagination;
 
-  // if (error) {
-  //   return <div>Error: {error.message}</div>;
-  // }
-
+  //
   return (
     <div className="pt-10">
       <div className="flex justify-between items-center mb-3">

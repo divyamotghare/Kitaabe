@@ -54,7 +54,6 @@ const countries = [
 ];
 
 export function FilterDrawer() {
-  const [searchParam, setSearchParam] = useSearchParams();
   const [open, setOpen] = useState(false);
 
   const openDrawer = () => setOpen(true);
@@ -63,8 +62,6 @@ export function FilterDrawer() {
   function handleCountrySort(e) {
     const checked = e.target.checked;
     const value = e.target.value;
-
- 
   }
 
   return (

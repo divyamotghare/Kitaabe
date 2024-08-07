@@ -8,7 +8,6 @@ import { debounce } from "../utils/debounce";
 function Search({ className }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const searchTerm = searchParams.get("title") || "";
-  // const debouncedSearchTerm = useDebounce(searchTerm, 300);
 
   const { refetch } = useFetchBooks(searchParams, false);
 
