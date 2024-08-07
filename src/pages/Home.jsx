@@ -38,7 +38,7 @@ function Home() {
                   <h2 className="text-xl text-secondary font-bold">
                     {book.title}
                   </h2>
-                  <p className="text-primary-dark">by {book.author}</p>
+                  <p className="text-primary-dark"> {book.author}</p>
                   <EditBook book={book} />
                 </div>
               </div>
